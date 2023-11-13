@@ -5,9 +5,10 @@ import '@nomicfoundation/hardhat-toolbox-viem';
 dotenv.config({ path: '.env.local' });
 
 const config: HardhatUserConfig = {
-	defaultNetwork: 'localhost',
+	defaultNetwork: 'hardhat',
 	networks: {
-		localhost: {
+		hardhat: {
+			initialBaseFeePerGas: 0,
 			forking: {
 				enabled: true,
 				url: process.env.RPC_URL ?? '',
