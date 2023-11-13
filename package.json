@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "1.0.0",
+    "@types/chai": "^4.3.10",
+    "hardhat": "2.19.0"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.18.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "viem": "^1.19.0"
+  }
+}
