@@ -1,15 +1,6 @@
 import hre from 'hardhat';
-import {
-	http,
-	parseEther,
-	formatEther,
-	publicActions,
-	walletActions,
-} from 'viem';
-import { polygon, hardhat } from 'viem/chains';
-
-import * as dotenv from 'dotenv';
-dotenv.config({ path: '.env.local' });
+import { parseEther, formatEther } from 'viem';
+import { hardhat } from 'viem/chains';
 
 import { POOL_ADDRESS_PROVIDER, DAI, DAI_WHALE } from '../config';
 
@@ -19,7 +10,6 @@ async function main() {
 	]);
 	console.log('Contract Address: ', flashLoan.address);
 
-	// Fetch DAI Contract
 	const testClient = await hre.viem.getTestClient({
 		account: DAI_WHALE,
 		mode: 'hardhat',
