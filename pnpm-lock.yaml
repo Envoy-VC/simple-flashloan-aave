@@ -10,7 +10,7 @@ dependencies:
     version: 1.18.0
   '@openzeppelin/contracts':
     specifier: '4'
-    version: 4.9.3
+    version: 4.9.6
   chai:
     specifier: ^4.3.10
     version: 4.3.10
@@ -834,8 +834,8 @@ packages:
       '@nomicfoundation/solidity-analyzer-win32-x64-msvc': 0.1.1
     dev: true
 
-  /@openzeppelin/contracts@4.9.3:
-    resolution: {integrity: sha512-He3LieZ1pP2TNt5JbkPA4PNT9WC3gOTOlDcFGJW4Le4QKqwmiNJCRt44APfxMxvq7OugU/cqYuPcSBzOw38DAg==}
+  /@openzeppelin/contracts@4.9.6:
+    resolution: {integrity: sha512-xSmezSupL+y9VkHZJGDoCBpmnB2ogM13ccaYDWqJTfS3dbuHkgjuwDFUmaFauBCboQMGB/S5UqUl2y54X99BmA==}
     dev: false
 
   /@scure/base@1.1.3:
